@@ -9,9 +9,9 @@ I decided to explore other options. I decided to go with using a prebuilt, easy-
 First, I trained a decision tree model on my dataset. It gave me a high accuracy of 97.8%, but I wanted to see if I could get a higher accuracy with random forest. I trained the random forest model and achieved an accuracy of 100%! Very impressive. 
 
 ## Using my model
-Now that I had a trained model, I decided to test it out a little with my own inputs. I gave it data describing the sun to see if it would predict a main sequence star type of 3. It did. Yay
+Now that I had a trained model, I decided to test it out a little with my own input. I gave it data describing the sun to see if it would predict a main sequence star type of 3. It did. Yay
 
-## Inadvertantly using another model
+## Using another model
 Next, I decided to do the suggested task and try and find the line of data most similar to the sun. For that, I used the nearest neighbors class of scikit-learn. I tried first scaling the data before giving it to the model, but actually produced a more accurate result without scaling. And after that, I was done!
 
 # Sources
